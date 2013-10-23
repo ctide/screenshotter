@@ -6,7 +6,7 @@ Currently requires firefox to be installed, but I'll probably add support for ch
 
 ## Installation
 
-Or install it yourself as:
+Install it as:
 
     $ gem install screenshotter
 
