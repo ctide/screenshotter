@@ -1,16 +1,10 @@
 # Screenshotter
 
-TODO: Write a gem description
+Really simple utility to take a screenshot of a given web page at 3 different widths, right now it's just 640 / 1024 / 1600 pixels width and it will capture the full height of the page.
+
+Currently requires firefox to be installed, but I'll probably add support for chrome driver and the other selenium drivers at some point.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'screenshotter'
-
-And then execute:
-
-    $ bundle
 
 Or install it yourself as:
 
@@ -18,7 +12,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+screenshotter <url>
+```
+
+Will produce 3 files in the current directory:
+
+<url>-640.png
+<url>-1024.png
+<url>-1600.png
 
 ## Contributing
 
