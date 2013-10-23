@@ -18,9 +18,11 @@ screenshotter <url>
 
 Will produce 3 files in the current directory:
 
-<url>-640.png
-<url>-1024.png
-<url>-1600.png
+```
+[url]-640.png
+[url]-1024.png
+[url]-1600.png
+````
 
 ## Contributing
 
